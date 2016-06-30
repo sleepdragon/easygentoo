@@ -590,6 +590,8 @@ inst() {
                     fi
 
                     umrg "sys-fs/udev"
+                    umrg "sys-fs/eudev"
+                    umrg "virtual/udev"
                 ;;
                 esac
 

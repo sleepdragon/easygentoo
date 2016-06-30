@@ -2036,7 +2036,7 @@ e_pp() {
 e_system() {
     cl
     step=$(eb2 "* "; eg "Updating system...")
-    inst "-e system"
+    #inst "-e system"
     inst "-u libtool"
 }
 

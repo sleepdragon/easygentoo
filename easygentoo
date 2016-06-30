@@ -2056,7 +2056,7 @@ e_kernel() {
 
     echo; eg2 "  Creating kernel config"; eg "..."; echo; sleep 0.5s
 
-    download "https://raw.githubusercontent.com/shdcn/easygentoo/master/easygentoo.config"
+    download "https://raw.githubusercontent.com/sleepdragon/easygentoo/master/easygentoo.config"
 
     fl "easygentoo.config" "0" "0"
 
